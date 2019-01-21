@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A2EAA621F5BF5900DAD5E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2EAA521F5BF5900DAD5E3 /* AppDelegate.m */; };
+		84A2EAA921F5BF5900DAD5E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2EAA821F5BF5900DAD5E3 /* ViewController.m */; };
+		84A2EAAC21F5BF5900DAD5E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A2EAAA21F5BF5900DAD5E3 /* Main.storyboard */; };
+		84A2EAAE21F5BF5900DAD5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A2EAAD21F5BF5900DAD5E3 /* Assets.xcassets */; };
+		84A2EAB121F5BF5900DAD5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A2EAAF21F5BF5900DAD5E3 /* LaunchScreen.storyboard */; };
+		84A2EAB421F5BF5900DAD5E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2EAB321F5BF5900DAD5E3 /* main.m */; };
+		84A2EABB21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework in Resources */ = {isa = PBXBuildFile; fileRef = 84A2EABA21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework */; };
+		84A2EABD21F5BFAA00DAD5E3 /* MicroBlink.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 84A2EABC21F5BFAA00DAD5E3 /* MicroBlink.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84A2EAC121F5BFB800DAD5E3 /* AcuantMobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2EAC021F5BFB800DAD5E3 /* AcuantMobileSDK.framework */; };
+		84A2EAC221F5BFC600DAD5E3 /* MicroBlink.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2EABC21F5BFAA00DAD5E3 /* MicroBlink.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84A2EABE21F5BFAA00DAD5E3 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84A2EABD21F5BFAA00DAD5E3 /* MicroBlink.bundle in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84A2EAA121F5BF5900DAD5E3 /* POC3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POC3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A2EAA421F5BF5900DAD5E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A2EAA521F5BF5900DAD5E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A2EAA721F5BF5900DAD5E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84A2EAA821F5BF5900DAD5E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84A2EAAB21F5BF5900DAD5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A2EAAD21F5BF5900DAD5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A2EAB021F5BF5900DAD5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A2EAB221F5BF5900DAD5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A2EAB321F5BF5900DAD5E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A2EABA21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AcuantMobileSDK2.embeddedframework; sourceTree = "<group>"; };
+		84A2EABC21F5BFAA00DAD5E3 /* MicroBlink.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MicroBlink.bundle; path = POC3/AcuantMobileSDK2.embeddedframework/Resources/MicroBlink.bundle; sourceTree = "<group>"; };
+		84A2EAC021F5BFB800DAD5E3 /* AcuantMobileSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcuantMobileSDK.framework; path = POC3/AcuantMobileSDK2.embeddedframework/AcuantMobileSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A2EA9E21F5BF5900DAD5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A2EAC221F5BFC600DAD5E3 /* MicroBlink.bundle in Frameworks */,
+				84A2EAC121F5BFB800DAD5E3 /* AcuantMobileSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A2EA9821F5BF5900DAD5E3 = {
+			isa = PBXGroup;
+			children = (
+				84A2EAA321F5BF5900DAD5E3 /* POC3 */,
+				84A2EAA221F5BF5900DAD5E3 /* Products */,
+				84A2EABF21F5BFB800DAD5E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A2EAA221F5BF5900DAD5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A2EAA121F5BF5900DAD5E3 /* POC3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A2EAA321F5BF5900DAD5E3 /* POC3 */ = {
+			isa = PBXGroup;
+			children = (
+				84A2EABA21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework */,
+				84A2EAA421F5BF5900DAD5E3 /* AppDelegate.h */,
+				84A2EAA521F5BF5900DAD5E3 /* AppDelegate.m */,
+				84A2EAA721F5BF5900DAD5E3 /* ViewController.h */,
+				84A2EAA821F5BF5900DAD5E3 /* ViewController.m */,
+				84A2EAAA21F5BF5900DAD5E3 /* Main.storyboard */,
+				84A2EAAD21F5BF5900DAD5E3 /* Assets.xcassets */,
+				84A2EAAF21F5BF5900DAD5E3 /* LaunchScreen.storyboard */,
+				84A2EAB221F5BF5900DAD5E3 /* Info.plist */,
+				84A2EAB321F5BF5900DAD5E3 /* main.m */,
+			);
+			path = POC3;
+			sourceTree = "<group>";
+		};
+		84A2EABF21F5BFB800DAD5E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A2EABC21F5BFAA00DAD5E3 /* MicroBlink.bundle */,
+				84A2EAC021F5BFB800DAD5E3 /* AcuantMobileSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A2EAA021F5BF5900DAD5E3 /* POC3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A2EAB721F5BF5900DAD5E3 /* Build configuration list for PBXNativeTarget "POC3" */;
+			buildPhases = (
+				84A2EA9D21F5BF5900DAD5E3 /* Sources */,
+				84A2EA9E21F5BF5900DAD5E3 /* Frameworks */,
+				84A2EA9F21F5BF5900DAD5E3 /* Resources */,
+				84A2EABE21F5BFAA00DAD5E3 /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POC3;
+			productName = POC3;
+			productReference = 84A2EAA121F5BF5900DAD5E3 /* POC3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A2EA9921F5BF5900DAD5E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Zerone Consulting";
+				TargetAttributes = {
+					84A2EAA021F5BF5900DAD5E3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 84A2EA9C21F5BF5900DAD5E3 /* Build configuration list for PBXProject "POC3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A2EA9821F5BF5900DAD5E3;
+			productRefGroup = 84A2EAA221F5BF5900DAD5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A2EAA021F5BF5900DAD5E3 /* POC3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A2EA9F21F5BF5900DAD5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A2EABB21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework in Resources */,
+				84A2EAB121F5BF5900DAD5E3 /* LaunchScreen.storyboard in Resources */,
+				84A2EAAE21F5BF5900DAD5E3 /* Assets.xcassets in Resources */,
+				84A2EAAC21F5BF5900DAD5E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A2EA9D21F5BF5900DAD5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A2EAA921F5BF5900DAD5E3 /* ViewController.m in Sources */,
+				84A2EAB421F5BF5900DAD5E3 /* main.m in Sources */,
+				84A2EAA621F5BF5900DAD5E3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A2EAAA21F5BF5900DAD5E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A2EAAB21F5BF5900DAD5E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A2EAAF21F5BF5900DAD5E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A2EAB021F5BF5900DAD5E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A2EAB521F5BF5900DAD5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84A2EAB621F5BF5900DAD5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A2EAB821F5BF5900DAD5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/POC3/AcuantMobileSDK2.embeddedframework",
+				);
+				INFOPLIST_FILE = POC3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroneconsulting.POC3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A2EAB921F5BF5900DAD5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/POC3/AcuantMobileSDK2.embeddedframework",
+				);
+				INFOPLIST_FILE = POC3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroneconsulting.POC3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A2EA9C21F5BF5900DAD5E3 /* Build configuration list for PBXProject "POC3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A2EAB521F5BF5900DAD5E3 /* Debug */,
+				84A2EAB621F5BF5900DAD5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A2EAB721F5BF5900DAD5E3 /* Build configuration list for PBXNativeTarget "POC3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A2EAB821F5BF5900DAD5E3 /* Debug */,
+				84A2EAB921F5BF5900DAD5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A2EA9921F5BF5900DAD5E3 /* Project object */;
+}

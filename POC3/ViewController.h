@@ -12,6 +12,7 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic) AcuantCardRegion cardRegion;
+
 @property (nonatomic) AcuantCardType cardType;
 
 @end

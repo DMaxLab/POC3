@@ -13,20 +13,20 @@
 		84A2EAAE21F5BF5900DAD5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A2EAAD21F5BF5900DAD5E3 /* Assets.xcassets */; };
 		84A2EAB121F5BF5900DAD5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A2EAAF21F5BF5900DAD5E3 /* LaunchScreen.storyboard */; };
 		84A2EAB421F5BF5900DAD5E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2EAB321F5BF5900DAD5E3 /* main.m */; };
-		84A2EABB21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework in Resources */ = {isa = PBXBuildFile; fileRef = 84A2EABA21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework */; };
-		84A2EABD21F5BFAA00DAD5E3 /* MicroBlink.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 84A2EABC21F5BFAA00DAD5E3 /* MicroBlink.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		84A2EAC121F5BFB800DAD5E3 /* AcuantMobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2EAC021F5BFB800DAD5E3 /* AcuantMobileSDK.framework */; };
-		84A2EAC221F5BFC600DAD5E3 /* MicroBlink.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2EABC21F5BFAA00DAD5E3 /* MicroBlink.bundle */; };
+		84A2EB0621F6EDA100DAD5E3 /* AcuantMobileSDK.embeddedframework in Resources */ = {isa = PBXBuildFile; fileRef = 84A2EB0521F6EDA100DAD5E3 /* AcuantMobileSDK.embeddedframework */; };
+		84A2EB0821F6EDB500DAD5E3 /* AcuantMobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2EB0721F6EDB500DAD5E3 /* AcuantMobileSDK.framework */; };
+		84A2EB0A21F6EDC300DAD5E3 /* MicroBlink.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2EB0921F6EDC300DAD5E3 /* MicroBlink.bundle */; };
+		84A2EB0B21F6EDC900DAD5E3 /* MicroBlink.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 84A2EB0921F6EDC300DAD5E3 /* MicroBlink.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		84A2EABE21F5BFAA00DAD5E3 /* Embed PlugIns */ = {
+		84A2EB0C21F6EDC900DAD5E3 /* Embed PlugIns */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				84A2EABD21F5BFAA00DAD5E3 /* MicroBlink.bundle in Embed PlugIns */,
+				84A2EB0B21F6EDC900DAD5E3 /* MicroBlink.bundle in Embed PlugIns */,
 			);
 			name = "Embed PlugIns";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,9 +44,9 @@
 		84A2EAB021F5BF5900DAD5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A2EAB221F5BF5900DAD5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A2EAB321F5BF5900DAD5E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84A2EABA21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AcuantMobileSDK2.embeddedframework; sourceTree = "<group>"; };
-		84A2EABC21F5BFAA00DAD5E3 /* MicroBlink.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MicroBlink.bundle; path = POC3/AcuantMobileSDK2.embeddedframework/Resources/MicroBlink.bundle; sourceTree = "<group>"; };
-		84A2EAC021F5BFB800DAD5E3 /* AcuantMobileSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcuantMobileSDK.framework; path = POC3/AcuantMobileSDK2.embeddedframework/AcuantMobileSDK.framework; sourceTree = "<group>"; };
+		84A2EB0521F6EDA100DAD5E3 /* AcuantMobileSDK.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AcuantMobileSDK.embeddedframework; sourceTree = "<group>"; };
+		84A2EB0721F6EDB500DAD5E3 /* AcuantMobileSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcuantMobileSDK.framework; path = POC3/AcuantMobileSDK.embeddedframework/AcuantMobileSDK.framework; sourceTree = "<group>"; };
+		84A2EB0921F6EDC300DAD5E3 /* MicroBlink.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MicroBlink.bundle; path = POC3/AcuantMobileSDK.embeddedframework/Resources/MicroBlink.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A2EAC221F5BFC600DAD5E3 /* MicroBlink.bundle in Frameworks */,
-				84A2EAC121F5BFB800DAD5E3 /* AcuantMobileSDK.framework in Frameworks */,
+				84A2EB0A21F6EDC300DAD5E3 /* MicroBlink.bundle in Frameworks */,
+				84A2EB0821F6EDB500DAD5E3 /* AcuantMobileSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		84A2EAA321F5BF5900DAD5E3 /* POC3 */ = {
 			isa = PBXGroup;
 			children = (
-				84A2EABA21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework */,
+				84A2EB0521F6EDA100DAD5E3 /* AcuantMobileSDK.embeddedframework */,
 				84A2EAA421F5BF5900DAD5E3 /* AppDelegate.h */,
 				84A2EAA521F5BF5900DAD5E3 /* AppDelegate.m */,
 				84A2EAA721F5BF5900DAD5E3 /* ViewController.h */,
@@ -99,8 +99,8 @@
 		84A2EABF21F5BFB800DAD5E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				84A2EABC21F5BFAA00DAD5E3 /* MicroBlink.bundle */,
-				84A2EAC021F5BFB800DAD5E3 /* AcuantMobileSDK.framework */,
+				84A2EB0921F6EDC300DAD5E3 /* MicroBlink.bundle */,
+				84A2EB0721F6EDB500DAD5E3 /* AcuantMobileSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 				84A2EA9D21F5BF5900DAD5E3 /* Sources */,
 				84A2EA9E21F5BF5900DAD5E3 /* Frameworks */,
 				84A2EA9F21F5BF5900DAD5E3 /* Resources */,
-				84A2EABE21F5BFAA00DAD5E3 /* Embed PlugIns */,
+				84A2EB0C21F6EDC900DAD5E3 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -163,10 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A2EABB21F5BF9600DAD5E3 /* AcuantMobileSDK2.embeddedframework in Resources */,
 				84A2EAB121F5BF5900DAD5E3 /* LaunchScreen.storyboard in Resources */,
 				84A2EAAE21F5BF5900DAD5E3 /* Assets.xcassets in Resources */,
 				84A2EAAC21F5BF5900DAD5E3 /* Main.storyboard in Resources */,
+				84A2EB0621F6EDA100DAD5E3 /* AcuantMobileSDK.embeddedframework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,11 +321,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/POC3/AcuantMobileSDK2.embeddedframework",
+					"$(PROJECT_DIR)/POC3/AcuantMobileSDK.embeddedframework",
 				);
 				INFOPLIST_FILE = POC3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -333,9 +335,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeroneconsulting.POC3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -343,11 +347,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/POC3/AcuantMobileSDK2.embeddedframework",
+					"$(PROJECT_DIR)/POC3/AcuantMobileSDK.embeddedframework",
 				);
 				INFOPLIST_FILE = POC3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -355,9 +361,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeroneconsulting.POC3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
